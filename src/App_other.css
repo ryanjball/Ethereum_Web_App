@@ -1,0 +1,46 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+  color: #95DBE5FF;
+  
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  display: flex;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color: #95DBE5FF;
+  margin-top: 16px;
+  font-weight: 600;
+}
+
+.textArea{ 
+  margin-top: 20px;
+  align-self: center;
+  }
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+  background-color: #95DBE5FF;
+}
+

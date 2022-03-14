@@ -1,0 +1,84 @@
+body{
+ background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(163,175,243,1) 0%, rgba(220,182,232,1) 100.2% );
+}
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  margin: none;
+  padding: none;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  padding-top: 65px; 
+}
+
+.header {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color: #fff;
+  margin-top: 16px;
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+.textbox{
+  background-color: white;
+  height: 150px;
+  border-radius:10px;
+  border-color:50px solid blueviolet; 
+}
+textarea{
+  font-size:30px;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  font-size: 35px;
+  font-weight: 1000;
+  border-radius: 5px;
+  padding: 8px 25px;
+  text-decoration: none;
+  background: #40cb90;
+  color: #fff;
+  height: 60px;
+  text-align: center;
+}
+
+
+.waveButton:hover {
+  letter-spacing: 1px;
+  box-shadow: 0 10px 12px (0, 0, 0, 0.2);
+  height: 70px;
+}
+
+.connectButton {
+  cursor: pointer;
+  margin-top: 16px;
+  font-size: 25px;
+  font-weight: 1000;
+  border-radius: 5px;
+  padding: 8px 25px;
+  text-decoration: none;
+  background: #79bedb;
+  color: #fff;
+  height: 60px;
+  text-align: center;
+}
+
+
+
+.connectButton:hover {
+  letter-spacing: 1px;
+  box-shadow: 0 10px 12px (0, 0, 0, 0.2);
+  height: 70px;
+
+}
